@@ -1,5 +1,5 @@
 '''
-Demo of it working:
+Demo gif:
 https://media.giphy.com/media/odillRIcapYxhSsIhY/giphy.gif
 
 How to use:
@@ -39,7 +39,7 @@ draw()
 run prevention
 '''
 
-#global constants
+##global constants
 WIDTH, HEIGHT = 900, 450
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("A recreation of John Conway's game of life")
@@ -133,6 +133,8 @@ https://media.giphy.com/media/odillRIcapYxhSsIhY/giphy.gif
             ##progress simulation
             elif state == "running":
                 if iterations > 0:
+                    ## optional reinforcement learning helper code
+
                     #m_id = 0
                     #for yp in range(rows):
                     #    for xp in range(cols):
