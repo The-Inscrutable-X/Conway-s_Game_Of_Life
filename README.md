@@ -1,3 +1,6 @@
+After becoming inspired from some videos describing Conway's game of life. I decided to code up my own version. Eventually, I added interactivity and an option for 
+logging stable forms. The stable form logging utility can be used to construct reward functions for initial state finder ML algorithms.
+
 Demo gif:
 https://media.giphy.com/media/odillRIcapYxhSsIhY/giphy.gif
 
